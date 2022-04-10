@@ -1,3 +1,4 @@
+# https://www.rubyguides.com/2017/06/there-is-no-magic-in-ruby/
 require 'bcrypt'
 
 users = [
