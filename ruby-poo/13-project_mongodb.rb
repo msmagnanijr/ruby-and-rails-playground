@@ -1,4 +1,5 @@
 # Learning how to connect to a MongoDB database using Ruby
+# https://www.mongodb.com/docs/ruby-driver/master/tutorials/quick-start/
 # sudo gem install mongo
 # docker run -d -p 27017:27017 --name mongodb -v /tmp/mongodb-docker:/data/db -e MONGODB_INITDB_ROOT_USERNAME=admin -e MONGODB_INITDB_ROOT_PASSWORD=redhat mongo:latest
 # docker exec -it mongodb bash
