@@ -1,5 +1,7 @@
-# implicit function to_s
+require_relative 'cortana'
+
 class Student
+    include  Cortana
     attr_accessor :first_name, :last_name, :email, :username ,:password
     @first_name
     @last_name
@@ -23,10 +25,6 @@ end
 mauricio = Student.new("Mauricio", "Magnani", "msmagnanijr@gmail.com","mmagnani", "12345")
 puts mauricio.to_s
 
-puts "\n"
 
-paulo = Student.new("Paulo", "Silva", "paulo@gmail.com","psilva", "45598")
-puts paulo.to_s
-
-#mauricio.last_name =  paulo.last_name
-#puts mauricio
+hashed_password = mauricio.create_hash_digest(mauricio.password)
+puts hashed_password
