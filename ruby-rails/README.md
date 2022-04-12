@@ -2,7 +2,6 @@
 
 ### Install RVM Fedora
 
-
 ```
 # https://www.matthewhoelter.com/2019/05/10/setup-and-install-multiple-versions-of-ruby-and-rails-with-rvm.html
 
@@ -27,4 +26,14 @@ $ gem install rails # Latest version
 $ gem install rails --version=4.2.11.1 # For a specific version
 # Quickly Create a New Project With Specific Version
 $ rails _4.2.11.1_ new new_project
+```
+
+```
+$ gem install rails -v 6.1.5
+$ rails new blog
+$ sudo dnf install nodejs
+$ rails webpacker:install
+$ sudo npm install --global yarn
+$ rails webpacker:install
+$ rails s
 ```
