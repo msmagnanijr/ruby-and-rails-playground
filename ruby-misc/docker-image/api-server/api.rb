@@ -12,7 +12,12 @@ namespace '/api/v1' do
       end
 
     get '/students' do
-        students = ["John", "Jane", "Jack", "Jill", "Jim", "Clarke"]
+        students = ["John", "Jane", "Jack", "Jill", "Jim", "Clarke","Cris","Mauricio"]
         students.to_json
+    end
+
+    get '/animals' do
+        animals = ["Dog", "Cat", "Bird", "Fish", "Lizard", "Turtle", "Snake", "Elephant"]
+        animals.to_json
     end
 end
